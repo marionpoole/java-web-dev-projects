@@ -19,6 +19,8 @@ public class Student {
         this(name, studentId, 0, 0);
     }
 
+    Student student = new Student("Minnie", 87569, 1, 4.0)
+
     public Student(String name) {
         this(name, nextStudentId);
         nextStudentId++;
