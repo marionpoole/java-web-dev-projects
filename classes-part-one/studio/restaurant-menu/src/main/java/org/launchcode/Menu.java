@@ -13,7 +13,7 @@ public class Menu {
     MenuItem item4 = new MenuItem("Cheese Sticks", 10.95, "Breadsticks filled with cheese and garlic flavoring", "Appetizers", false);
 
 
-    private ArrayList<MenuItem> menuList;
+    public ArrayList<MenuItem> menuList;
 
     {
         menuList.add(item1);
@@ -25,8 +25,17 @@ public class Menu {
     public ArrayList<MenuItem> getMenuList() {
         return menuList;
     }
-
-    private void setMenuList(ArrayList<MenuItem>) {
+//
+  private void setMenuList(ArrayList<MenuItem> menuList) {
         this.menuList = menuList;
     }
-}
+
+
+    public Date updated() {
+        Date menuUpdate = new Date(2024, 10, 3);
+        System.out.println("Menu last updated: " + menuUpdate);
+        return menuUpdate;
+    }
+    }
+
+

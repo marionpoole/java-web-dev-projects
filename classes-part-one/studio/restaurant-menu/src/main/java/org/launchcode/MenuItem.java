@@ -56,5 +56,25 @@ public class MenuItem {
     }
 
 
+    @Override
+    public boolean equals(Object toBeCompared) {
+        if (toBeCompared == this) {
+            return true;
+        }
+
+        if (toBeCompared == null) {
+            return false;
+        }
+
+        if (toBeCompared.getClass() != this.getClass()) {
+            return false;
+        }
+
+        MenuItem itemToCompare = (MenuItem) toBeCompared;
+        //return songToCompare.getTitle().equals(this.getTitle()) && songToCompare.getArtist().equals(this.getArtist());
+
+        return;
+    }
+
 
 }
