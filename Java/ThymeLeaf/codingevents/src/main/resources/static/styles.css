@@ -1,0 +1,42 @@
+body {
+font-size: 18px;
+}
+
+table {
+font-size: 14px;
+border-collapse: collapse;
+margin: auto;
+}
+
+th {
+background-color: green;
+color: white;
+text-align: center;
+}
+
+tr:nth-child(even) {
+background-color: #EEEEEE;
+}
+
+table, th, td {
+border: 1px solid;
+}
+
+td, th {
+padding: 5px;
+}
+
+tr:hover {background-color: pink;}
+
+h1 {
+text-align: center;
+}
+
+.nav-item {
+margin: auto;
+text-align: center;
+}
+
+div {
+margin: auto;
+}
